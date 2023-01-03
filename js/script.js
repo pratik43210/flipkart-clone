@@ -7,7 +7,7 @@ const btnScrollLeft=document.querySelector('#btn-scroll-left-1');
 const btnScrollRight=document.querySelector('#btn-scroll-right-1');
 
 
-let maxScroll=-sItems.offsetWidth +hScroll.offsetWidth+456;
+let maxScroll=-sItems.offsetWidth +hScroll.offsetWidth;
 
 function scrollHorizontally(val){
     currentScroll+=(val*scrollAmt);
